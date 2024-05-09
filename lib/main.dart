@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_desde_cero/container.dart';
+import 'package:flutter_desde_cero/widgets/row.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: MyContainer(),
+      home: MyRow(),
     );
   }
 }
